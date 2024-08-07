@@ -12,7 +12,6 @@ const axiosInstance = axios.create({
 })
 
 axiosInstance.interceptors.request.use((config: InternalAxiosRequestConfig<any>) => {
-    console.log(config.url)
     return config
 })
 
