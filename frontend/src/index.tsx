@@ -15,7 +15,9 @@ const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<App/>}>
 
   </Route>
-))
+), {
+  basename: "/dirolstats"
+})
 
 
 
