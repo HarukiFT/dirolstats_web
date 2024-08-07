@@ -46,10 +46,6 @@ const SkinsStats: React.FC = () => {
                 })
             })
 
-            console.log(response.map(item => ({
-                [item._id]: item.value
-            })))
-
             setSeries(series)
             
         })
