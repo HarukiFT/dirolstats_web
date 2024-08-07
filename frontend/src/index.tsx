@@ -16,7 +16,7 @@ const router = createBrowserRouter(createRoutesFromElements(
 
   </Route>
 ), {
-  basename: 'dirolstats'
+  basename: '/dirolstats'
 })
 
 
